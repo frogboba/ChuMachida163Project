@@ -54,7 +54,7 @@ def plot_smoking(csv_file) -> None:
 plot_smoking("Sleep_Efficiency.csv")
 
 
-def create_smoking():
+def create_smoking() -> dcc:
     '''
     Creates layout for Smoking page on Dash app
     Returns the layout
