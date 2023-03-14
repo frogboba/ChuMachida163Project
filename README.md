@@ -2,7 +2,7 @@ This project creates a local hub to display how different factors (caffeine inta
 
 How to run the project:
 
-1. Download the folder containing the python files and data set.
+1. Download the zip file containing the python files and data set.
 
 2. Install the following libraries*:
 	- Plotly
