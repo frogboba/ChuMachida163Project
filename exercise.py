@@ -107,7 +107,7 @@ def plot_exercise(csv_file) -> None:
 plot_exercise("Sleep_Efficiency.csv")
 
 
-def create_exercise():
+def create_exercise() -> dcc:
     '''
     Creates layout for Exercise page on Dash app
     Returns the layout
