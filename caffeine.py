@@ -95,7 +95,7 @@ def plot_caffeine(csv_file) -> None:
 plot_caffeine("Sleep_Efficiency.csv")
 
 
-def create_caffeine():
+def create_caffeine() -> dcc:
     '''
     Creates layout for Caffeine page on Dash app
     Returns the layout
