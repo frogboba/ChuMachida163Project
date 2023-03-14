@@ -122,7 +122,7 @@ def plot_alcohol(csv_file) -> None:
 plot_alcohol("Sleep_Efficiency.csv")
 
 
-def create_alcohol():
+def create_alcohol() -> dcc:
     '''
     Creates layout for Alcohol page on Dash app
     Returns the layout
