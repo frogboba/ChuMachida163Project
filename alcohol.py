@@ -13,7 +13,7 @@ nav = create_navbar()
 header = html.H3('Alcohol Consumption and Sleep Efficiency')
 
 
-def plot_alcohol(csv_file):
+def plot_alcohol(csv_file) -> None:
     '''
     Takes a CSV file and converts it into a data frame with
     dropped null values
