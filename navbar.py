@@ -4,7 +4,7 @@ File contains create_navbar method
 import dash_bootstrap_components as dbc
 
 
-def create_navbar() -> dbc._components.NavbarSimple.NavbarSimple:
+def create_navbar() -> dbc._components.NavbarSimple:
     '''
     Creates layout for navbar on Dash app
     Returns the navbar
