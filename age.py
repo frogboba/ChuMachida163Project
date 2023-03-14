@@ -29,7 +29,7 @@ def plot_age(csv_file) -> None:
 plot_age("Sleep_Efficiency.csv")
 
 
-def create_age():
+def create_age() -> dcc:
     '''
     Creates layout for Age page on Dash app
     Returns the layout
